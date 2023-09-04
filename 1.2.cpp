@@ -14,8 +14,9 @@ int main ()
 	cin >> menu;
 	if(menu=='1')calcircle();
 		else if(menu=='2')rec();
-			else if (menu=='3')
-				break;
+			else if (menu=='3'){
+				cout << "exit";
+				break;}
 				else cout << "wrong menu"<< endl;
 	}while(menu!='3');
 }
